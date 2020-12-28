@@ -1,9 +1,9 @@
 
 //A dona de um pensionato possui 10 quartospara alugar para estudantes, sendo identificados de 0-9.
 //Fazer um programa que inicie os 10 quartos vazios, e depois leia uma quantidade N representando o numero de estudantes
-//que v„o alugar(N pode ser de 1-10). Em seguida, resgistre o aluguel dos N estudantes. Para cada registro, informar o nome e e-mail
+//que v√£o alugar(N pode ser de 1-10). Em seguida, resgistre o aluguel dos N estudantes. Para cada registro, informar o nome e e-mail
 //do estudante, bem como qual dos quartos ele escolheu(0-9). Suponha que seja escolhido um quarto vago. Ao final, seu programa deve 
-//imprimir um relatÛrio de todas as ocupaÁıes do pensionato, por ordem de quarto.
+//imprimir um relat√≥rio de todas as ocupa√ß√µes do pensionato.
 
 package Application;
 
@@ -21,7 +21,7 @@ public class ProgramExerc {
 		
 		ProductExerc[] quartos = new ProductExerc[10];
 		
-		System.out.println("Quantos quartos ser„o alugados? ");
+		System.out.println("Quantos quartos ser√£o alugados? ");
 		int nEstudantes = sc.nextInt();
 		
 		for(int i=0; i<nEstudantes; i++) {
@@ -32,7 +32,7 @@ public class ProgramExerc {
 			String email = sc.nextLine();
 			System.out.print("Qual dos quartos vc prefere? ");
 			int quarto = sc.nextInt();
-			System.out.print("Digite o n˙mero de alugueis: ");
+			System.out.print("Digite o n√∫mero de alugueis: ");
 			int aluguel = sc.nextInt();
 			System.out.println();
 			quartos[i] = new ProductExerc(name, email, quarto, aluguel);
